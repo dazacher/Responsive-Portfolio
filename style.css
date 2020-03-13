@@ -1,0 +1,84 @@
+body{
+    background-image: url('https://cdn141.picsart.com/278359967011201.jpg?type=webp&to=min&r=640');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+.collapse a{
+    color:white;
+}
+
+.navbar-brand{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top:-7px; 
+    margin-bottom:-7px;
+    width:"300px";
+    color:white;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: blueviolet;
+    font-family: 'Noto Serif', serif;
+}
+div{
+    color: white;
+}
+
+#formGroupExampleInput3{
+    height:300px;
+    text-align: initial;
+}
+
+#straight-line{
+    border-bottom: grey;
+    border-bottom: solid;
+}
+
+.btn{
+    background-color: blueviolet;
+}
+
+#portfolio-spacing{
+    padding-top:50px;
+    padding-left:50px;
+    height:250px;
+    width:200px;
+    align-content:top;
+}
+
+/* img{
+    height:150px;
+    width:100px:
+} */
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100px;
+    height:150px;
+    /* height: auto; */
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
