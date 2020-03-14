@@ -1,3 +1,4 @@
+/* Setup the background of my website */
 body{
     background-image: url('https://cdn141.picsart.com/278359967011201.jpg?type=webp&to=min&r=640');
     background-repeat: yes; 
@@ -89,19 +90,48 @@ div{
 
 .box2{
     position:relative;
-    top:-122px;
-    left:200px;
+    top:25px;
+    left:100px;
+}
+
+.box3{
+    position:relative;
+    top:50px;
+    left:-10px;
+}
+
+.box4{
+    position:relative;
+    top:50px;
+    left:100px;
 }
 
 .box1 .text{
     position: absolute;
+    text-align: center;
     left:85x;
     bottom:15px;
     background-color: blueviolet;
 }
+
 .box2 .text{
     position: absolute;
-    left:-30px;
+    text-align: center;
+    left:0px;
     bottom:15px;
+    background-color: blueviolet;
+}
+
+.box3 .text{
+    position: absolute;
+    left:15px;
+    bottom:-15px;
+    background-color: blueviolet;
+}
+
+.box4 .text{
+    position: absolute;
+    left:15px;
+    bottom:-15px;
     background-color: blueviolet;
 }
