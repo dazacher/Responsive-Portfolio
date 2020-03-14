@@ -71,6 +71,8 @@ div{
 .box1{
     position:relative;
     top:25px;
+    left:50px;
+    /* right:50px; */
 }
 
  /* Setup position of second image */
@@ -78,13 +80,14 @@ div{
     position:relative;
     top:25px;
     left:100px;
+    right:50px;
 }
 
  /* Setup position of third image */
 .box3{
     position:relative;
     top:50px;
-    left:-10px;
+    left:50px;
 }
 
  /* Setup position of fourth image */
@@ -92,6 +95,7 @@ div{
     position:relative;
     top:50px;
     left:100px;
+    right:50px;
 }
 
 /* Setup text positioning of first image */
