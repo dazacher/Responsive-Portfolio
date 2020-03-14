@@ -1,6 +1,6 @@
 /* Setup the background of my website */
 body{
-    background-image: url('https://cdn141.picsart.com/278359967011201.jpg?type=webp&to=min&r=640');
+    background-image: url("Assets/Images/MilkyWay.jpg");
     background-repeat: yes; 
     background-size: cover; 
     background-position: center;
