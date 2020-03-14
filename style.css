@@ -67,22 +67,6 @@ div{
     width: 125px;
     height:150px;
   }
-  
-  /* Style the button and place it at the bottom of the container/image */
-  /* .container .btn {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
-    /* -ms-transform: translate(75%, 75%); */
-    /* background-color: blueviolet;
-    color: white; */
-    /* font-size: 16px; */
-   /* padding: 12px 60px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  } */
 
   .img-responsive{
       float: left;
@@ -97,16 +81,6 @@ div{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
 }
-/* .box .text{
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 100px; /* Adjust this value to move the positioned div up and down */
-    /*text-align: left;
-    width: 25%; /* Set the width of the positioned div 
-} */
 
 .box1{
     position:relative;
