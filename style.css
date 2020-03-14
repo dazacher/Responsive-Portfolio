@@ -6,10 +6,7 @@ body{
     background-position: center;
 }
 
-.collapse a{
-    color:white;
-}
-
+/* Set up the formatting of the Navbar for my Name */
 .navbar-brand{
     padding-left: 25px;
     padding-right: 25px;
@@ -23,22 +20,28 @@ body{
     font-family: 'Noto Serif', serif;
 }
 
+/* Set the color of the font for the site to White */
 div{
     color: white;
 }
 
+/* Setup the width of the form */
 .form-control{
     width:750px;
 }
+
+/* Setup the height of the message box */
 #formGroupExampleInput3{
     height:300px;
 }
 
+/* Setup the details of the straight line on Contact and Portfolio page */
 #straight-line{
     border-bottom: grey;
     border-bottom: solid;
 }
 
+/* Details of the button the the contact page */
 .btn{
     background-color: blueviolet;
     text-align: left;
@@ -46,93 +49,91 @@ div{
     left:30px;
 }
 
-#portfolio-spacing{
-    padding-top:50px;
-    padding-left:50px;
-    height:250px;
-    width:200px;
-    align-content:top;
-}
-
-.container {
-    position: relative;
-    /* width: 50%; */
-  }
-  
-  /* Make the image responsive */
-  #index  img {
+  /* Adjust the sizes of the images on the portfolio page */
+  #portfolio  img {
     width: 200px;
     height:250px;
   }
-  #portfolio  img {
-    width: 125px;
-    height:150px;
-  }
 
+/* Adjust the height and width of the image on the index page and location */
   .img-responsive{
       float: left;
       padding-right: 15px;;
+      width: 200px;
+    height:250px;
   }
   
   .container .btn:hover {
     background-color: black;
   }
 
-.box{
-    position: relative;
-    display: inline-block; /* Make the width of box same as image */
-}
-
+  /* Setup position of first image */
 .box1{
     position:relative;
     top:25px;
 }
 
+ /* Setup position of second image */
 .box2{
     position:relative;
     top:25px;
     left:100px;
 }
 
+ /* Setup position of third image */
 .box3{
     position:relative;
     top:50px;
     left:-10px;
 }
 
+ /* Setup position of fourth image */
 .box4{
     position:relative;
     top:50px;
     left:100px;
 }
 
+/* Setup text positioning of first image */
 .box1 .text{
     position: absolute;
     text-align: center;
+    padding-left:35px;
+    padding-right: 35px;
     left:85x;
     bottom:15px;
     background-color: blueviolet;
 }
 
+/* Setup text positioning of second image */
 .box2 .text{
     position: absolute;
     text-align: center;
+    padding-left:8px;
+    padding-right:6px;
     left:0px;
     bottom:15px;
     background-color: blueviolet;
 }
 
+/* Setup text positioning of third image */
 .box3 .text{
     position: absolute;
     text-align: center;
+    padding-left:9px;
+    padding-right:9px;
     left:0px;
     bottom:15px;
     background-color: blueviolet;
 }
 
+/* Setup text positioning of fourth image */
 .box4 .text{
     position: absolute;
+    text-align: center;
+    padding-left:45px;
+    padding-right:46px;
     left:15px;
-    bottom:-15px;
+    bottom:15px;
     background-color: blueviolet;
 }
