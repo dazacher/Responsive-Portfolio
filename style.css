@@ -78,7 +78,7 @@ div{
     background-color: black;
   }
 
-  box{
+.box{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
 }
@@ -124,8 +124,9 @@ div{
 
 .box3 .text{
     position: absolute;
-    left:15px;
-    bottom:-15px;
+    text-align: center;
+    left:0px;
+    bottom:15px;
     background-color: blueviolet;
 }
 
