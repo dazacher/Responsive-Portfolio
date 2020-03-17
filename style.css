@@ -44,10 +44,10 @@ div{
 /* Details of the button the the contact page */
 .btn{
     background-color: blueviolet;
+    /* position:fixed; */
     text-align: left;
-    position: fixed;
-    left:30px;
-}
+    left:25px;
+    }
 
   /* Adjust the sizes of the images on the portfolio page */
   #portfolio  img {
@@ -60,7 +60,7 @@ div{
       float: left;
       padding-right: 15px;;
       width: 200px;
-    height:250px;
+      height:250px;
   }
   
   .container .btn:hover {
@@ -106,7 +106,7 @@ div{
     text-align: center;
     padding-left:35px;
     padding-right: 35px;
-    left:85x;
+    left:85px;
     bottom:15px;
     background-color: blueviolet;
 }
