@@ -6,6 +6,9 @@ body{
     background-position: center;
 }
 
+.box5{
+    background-color:blueviolet;
+}
 /* Set up the formatting of the Navbar for my Name */
 .navbar-brand{
     padding-left: 25px;
@@ -100,6 +103,8 @@ div{
     right:1000px;
 }
 
+
+
 /* Setup text positioning of first image */
 .box1 .text{
     position: absolute;
@@ -143,3 +148,5 @@ div{
     bottom:15px;
     background-color: blueviolet;
 }
+
+@media 
