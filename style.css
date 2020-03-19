@@ -7,7 +7,8 @@ body{
 }
 
 .box5{
-    background-color:blueviolet;
+    /* background-image: url("https://support.postbox-inc.com/hc/en-us/article_attachments/115000113173/code-view-small_2x.png"); */
+    background-color:blueviolet !important;
 }
 /* Set up the formatting of the Navbar for my Name */
 .navbar-brand{
@@ -54,8 +55,7 @@ div{
 
   /* Adjust the sizes of the images on the portfolio page */
   #portfolio  img {
-    width: 200px;
-    height:250px;
+    width: 100%;
   }
 
 /* Adjust the height and width of the image on the index page and location */
@@ -74,8 +74,8 @@ div{
 .box1{
     position:relative;
     top:25px;
-    left:50px;
-    right:50px;
+    /* left:50px;
+    right:50px; */
     bottom:50px;
 }
 
@@ -83,8 +83,8 @@ div{
 .box2{
     position:relative;
     top:25px;
-    left:100px;
-    right:100px;
+    /* left:100px;
+    right:100px; */
     bottom:50px;
 }
 
@@ -92,15 +92,15 @@ div{
 .box3{
     position:relative;
     top:50px;
-    left:50px;
-}
+    /* left:50px;
+} */
 
  /* Setup position of fourth image */
 .box4{
     position:relative;
     top:50px;
-    left:100px;
-    right:1000px;
+    /* left:100px;
+    right:1000px; */
 }
 
 
@@ -109,10 +109,11 @@ div{
 .box1 .text{
     position: absolute;
     text-align: center;
-    padding-left:35px;
-    padding-right: 35px;
+    width:100%;
+    /* padding-left:35px;
+    padding-right: 35px; */
     left:85px;
-    bottom:15px;
+    bottom:155px;
     background-color: blueviolet;
 }
 
@@ -120,8 +121,9 @@ div{
 .box2 .text{
     position: absolute;
     text-align: center;
-    padding-left:8px;
-    padding-right:6px;
+    width:100%;
+    /* padding-left:8px;
+    padding-right:6px; */
     left:0px;
     bottom:15px;
     background-color: blueviolet;
@@ -131,8 +133,9 @@ div{
 .box3 .text{
     position: absolute;
     text-align: center;
-    padding-left:9px;
-    padding-right:9px;
+    width:100%;
+    /* padding-left:9px;
+    padding-right:9px; */
     left:0px;
     bottom:15px;
     background-color: blueviolet;
@@ -142,8 +145,9 @@ div{
 .box4 .text{
     position: absolute;
     text-align: center;
-    padding-left:45px;
-    padding-right:46px;
+    width:100%;
+    /* padding-left:45px;
+    padding-right:46px; */
     left:15px;
     bottom:15px;
     background-color: blueviolet;
