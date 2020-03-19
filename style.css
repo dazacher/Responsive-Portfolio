@@ -6,10 +6,7 @@ body{
     background-position: center;
 }
 
-.box5{
-    /* background-image: url("https://support.postbox-inc.com/hc/en-us/article_attachments/115000113173/code-view-small_2x.png"); */
-    background-color:blueviolet !important;
-}
+
 /* Set up the formatting of the Navbar for my Name */
 .navbar-brand{
     padding-left: 25px;
@@ -48,7 +45,6 @@ div{
 /* Details of the button the the contact page */
 .btn{
     background-color: blueviolet;
-    /* position:fixed; */
     text-align: left;
     left:25px;
     }
@@ -74,8 +70,6 @@ div{
 .box1{
     position:relative;
     top:25px;
-    /* left:50px;
-    right:50px; */
     bottom:50px;
 }
 
@@ -83,8 +77,6 @@ div{
 .box2{
     position:relative;
     top:25px;
-    /* left:100px;
-    right:100px; */
     bottom:50px;
 }
 
@@ -92,17 +84,13 @@ div{
 .box3{
     position:relative;
     top:50px;
-    /* left:50px;
-} */
+} 
 
  /* Setup position of fourth image */
 .box4{
     position:relative;
     top:50px;
-    /* left:100px;
-    right:1000px; */
 }
-
 
 
 /* Setup text positioning of first image */
@@ -110,10 +98,7 @@ div{
     position: absolute;
     text-align: center;
     width:100%;
-    /* padding-left:35px;
-    padding-right: 35px; */
-    left:85px;
-    bottom:155px;
+    bottom:15px;
     background-color: blueviolet;
 }
 
@@ -122,9 +107,6 @@ div{
     position: absolute;
     text-align: center;
     width:100%;
-    /* padding-left:8px;
-    padding-right:6px; */
-    left:0px;
     bottom:15px;
     background-color: blueviolet;
 }
@@ -134,9 +116,6 @@ div{
     position: absolute;
     text-align: center;
     width:100%;
-    /* padding-left:9px;
-    padding-right:9px; */
-    left:0px;
     bottom:15px;
     background-color: blueviolet;
 }
@@ -146,11 +125,6 @@ div{
     position: absolute;
     text-align: center;
     width:100%;
-    /* padding-left:45px;
-    padding-right:46px; */
-    left:15px;
     bottom:15px;
     background-color: blueviolet;
 }
-
-@media 
