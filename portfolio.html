@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Assets/Images/favicon.ico" type="image/x-icon/">
-    <title>Portfolio</title>
 
-    <!-- Link for google font -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"> 
-    
-    <!-- Link for Bootstrap -->
-    <link
-  rel="stylesheet"
- href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  crossorigin="anonymous"/>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Assets/Images/favicon.ico" type="image/x-icon/">
+  <title>Portfolio</title>
+
+  <!-- Link for google font -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+
+  <!-- Link for Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
   <!-- Link for personal style sheet -->
-<link rel="stylesheet" href="./style.css"/>
+  <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!-- Image on myself on the Navbar. Also a link back to the about me page. -->
     <a class="navbar-brand" href="./index.html">Dee Ann Scanniello</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,6 +33,10 @@
         <li class="nav-item active">
           <!-- Link to About Me page -->
           <a class="nav-link" href="./index.html">About Me <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <!-- Link to Portfolio Page -->
+          <a class="nav-link" href="./Dee_Ann_Scanniello_Resume.html">Resume</a>
         </li>
         <li class="nav-item">
           <!-- Link to Portfolio Page -->
@@ -46,46 +50,86 @@
     </div>
   </nav>
 
- <div class="container" id="portfolio">
-   <!-- First picture on Portfolio page. Eventualiy will be a link to my first project -->
-   <div class="row">
-     <div class="col-sm-6 col-xs-12">     
-              <div class="box1">
-                <img src="https://support.postbox-inc.com/hc/en-us/article_attachments/115000113173/code-view-small_2x.png"  alt="Responsive portfolio">
-                <div class="text">
-                    <h5>Code Refactor</h5>
-                  </div>
-                </div>
-            </div>
-<!-- Second picture on my portfolio page. Eventually will be a link to my second project. -->
-              <div class="col-sm-6 col-xs-12">
-              <div class="box2">
-                <img src="Assets/Images/Me2.jpeg" alt="Responsive portfolio">
-                <div class="text">
-                    <h5>Responsive Portfolio</h5>
-                </div>
-               </div>
-            </div>
+  <div class="container" id="portfolio">
+    <!-- Link to my first project -->
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <div class="box1">
+          <img src="./Assets/Images/Trivia-with-Friends.jpg" alt="Trivia with Friends"><br>
+          <div class="text">
+            <h5>Trivia with Friends</h5>
+            <!-- Links to GitHub deployed website and github code -->
+            <a id="anchor1" href="https://dazacher.github.io/Trivia-With-Friends/" target="_blank">Deployed Website</a><br>
+            <a id="anchor2" href="https://github.com/dazacher/Trivia-With-Friends" target="_blank">GitHub Code</a>
           </div>
-<!-- Third picture on my portfolio page. Eventually will be a link to my thrid project -->
-        <div class="row">
-          <div class="col-sm-6 col-xs-12">
-            <div class="box3">
-              <img src="Assets/Images/Lilly2.jpeg" alt="Password Generator">
-              <div class="text">
-                  <h5>Password Generator</h5>
-              </div>
+        </div>
+      </div>
+      <!-- Second picture on my portfolio page. -->
+      <div class="col-sm-6 col-xs-12">
+        <div class="box2">
+          <img src="./Assets/Images/Weather-Dashboard.jpg" alt="Weather Dashboard">
+          <div class="text">
+            <h5>Weather Dashboard</h5>
+            <!-- Links to GitHub deployed website and github code -->
+            <a id="anchor3" href="https://dazacher.github.io/Weather-Dashboard/" target="_blank">Deployed Website</a><br>
+            <a id="anchor4" href="https://github.com/dazacher/Weather-Dashboard" target="_blank">GitHub Code</a>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- Third picture on my portfolio page. -->
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <div class="box3">
+          <img src="./Assets/Images/Password-Generator.jpg" alt="Password Generator">
+          <div class="text">
+            <h5>Password Generator</h5>
+            <!-- Links to GitHub deployed website and github code -->
+            <a id="anchor5" href="https://dazacher.github.io/Password-Generator/" target="_blank">Deployed Website</a><br>
+            <a id="anchor6" href="https://github.com/dazacher/Password-Generator" target="_blank">GitHub Code</a>
           </div>
-          <!-- Fourth picture on my portfolio page.  eventually will be a link to my fourth project-->
-          <div class="col-sm-6 col-xs-12">
-            <div class="box4">
-              <img src="Assets/Images/Sierra_And_I2.jpeg" alt="Unknown">
-              <div class="text">
-                  <h5>Unknown</h5>
-              </div>
+        </div>
+      </div>
+      <!-- Fourth picture on my portfolio page.t-->
+      <div class="col-sm-6 col-xs-12">
+        <div class="box4">
+          <img src="./Assets/Images/Yorkshire-Terrier-Quiz.jpg" alt="Yorkshire Terrier Quiz">
+          <div class="text">
+            <h5>Yorkshire Terrier Quiz</h5>
+            <!-- Links to GitHub deployed website and github code -->
+            <a id="anchor7" href="https://dazacher.github.io/Quiz/" target="_blank">Deployed Website</a><br>
+            <a id="anchor8" href="https://github.com/dazacher/Quiz" target="_blank">GitHub Code</a>
           </div>
-       </div>
-  </div>    
+        </div>
+      </div>
+      <!-- Link to my first project -->
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <div class="box5">
+          <img src="./Assets/Images/Work-Day-Scheduler.jpg" alt="Work Day Scheduler"><br>
+          <div class="text">
+            <h5>Work Day Scheduler</h5>
+            <!-- Links to GitHub deployed website and github code -->
+            <a id="anchor9" href="https://dazacher.github.io/Work_Day_Scheduler/" target="_blank">Deployed Website</a><br>
+            <a id="anchor10" href="https://github.com/dazacher/Work_Day_Scheduler" target="_blank">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Second picture on my portfolio page. -->
+      <div class="col-sm-6 col-xs-12">
+        <div class="box6">
+          <!-- <img src="./Assets/Images/Lilly2.jpeg" alt="Lilly">
+          <div class="text">
+            <h5>Unknown</h5>
+            Links to GitHub deployed website and github code -->
+            <!-- <a id="anchor11" href="" target="_blank">Deployed Website</a><br>
+            <a id="anchor12" href="" target="_blank">GitHub Code</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
 </body>
+
 </html>

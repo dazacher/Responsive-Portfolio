@@ -4,8 +4,55 @@ body{
     background-repeat: yes; 
     background-size: cover; 
     background-position: center;
+    font-family: 'Noto Serif', serif;
 }
 
+/* Resume CSS */
+.resume{
+    font-family: 'Noto Serif', serif;
+}
+
+#resumeH2{
+    text-align: center;
+    width: 100%;
+}
+.resumeHeader{
+    text-decoration: underline;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+li.borderless {
+    border-top: 0 none;
+  }
+
+#address{
+    width:50%;
+}
+
+#contact{
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.companyDiv{
+    width: 50%;
+}
+.company{
+    text-decoration: underline;   
+}
+
+.yearsOfService{
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.career{
+    font-weight: bold;
+}
+/* End Resume CSS */
 
 /* Set up the formatting of the Navbar for my Name */
 .navbar-brand{
@@ -28,12 +75,12 @@ div{
 
 /* Setup the width of the form */
 .form-control{
-    width:750px;
+    width: 750px;
 }
 
 /* Setup the height of the message box */
 #formGroupExampleInput3{
-    height:300px;
+    height: 300px;
 }
 
 /* Setup the details of the straight line on Contact and Portfolio page */
@@ -46,59 +93,84 @@ div{
 .btn{
     background-color: blueviolet;
     text-align: left;
-    left:25px;
+    left: 25px;
     }
 
   /* Adjust the sizes of the images on the portfolio page */
-  #portfolio  img {
+#portfolio  img {
     width: 100%;
   }
 
 /* Adjust the height and width of the image on the index page and location */
-  .img-responsive{
+.img-responsive{
       float: left;
       padding-right: 15px;;
       width: 200px;
-      height:250px;
+      height: 250px;
   }
   
-  .container .btn:hover {
+.container .btn:hover {
     background-color: black;
   }
 
   /* Setup position of first image */
 .box1{
-    position:relative;
-    top:25px;
-    bottom:50px;
+    position: relative;
+    top: 25px;
+    bottom: 50px;
 }
 
  /* Setup position of second image */
 .box2{
-    position:relative;
-    top:25px;
-    bottom:50px;
+    position: relative;
+    top: 25px;
+    bottom: 50px;
 }
 
  /* Setup position of third image */
 .box3{
-    position:relative;
-    top:50px;
+    position :relative;
+    top: 50px;
 } 
 
  /* Setup position of fourth image */
 .box4{
-    position:relative;
-    top:50px;
+    position: relative;
+    top: 50px;
 }
 
+.box5{
+    position: relative;
+    top: 75px;
+}
+
+.box6{
+    position: relative;
+    top: 75px;
+}
 
 /* Setup text positioning of first image */
 .box1 .text{
     position: absolute;
     text-align: center;
-    width:100%;
-    bottom:15px;
+    width: 100%;
+    bottom: 15px;
+    background-color: blueviolet;
+}
+
+ .box1 #anchor1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -15px;
+    background-color: blueviolet;
+}
+
+.box1 #anchor2{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -155px;
     background-color: blueviolet;
 }
 
@@ -106,17 +178,48 @@ div{
 .box2 .text{
     position: absolute;
     text-align: center;
-    width:100%;
-    bottom:15px;
+    width: 100%;
+    bottom: 15px;
     background-color: blueviolet;
 }
 
+.box2 #anchor3{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -15px;
+    background-color: blueviolet;
+}
+
+.box2 #anchor4{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -155px;
+    background-color: blueviolet;
+}
 /* Setup text positioning of third image */
 .box3 .text{
     position: absolute;
     text-align: center;
-    width:100%;
-    bottom:15px;
+    width: 100%;
+    bottom: 15px;
+    background-color: blueviolet;
+}
+
+.box3 #anchor5{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -15px;
+    background-color: blueviolet;
+}
+
+.box3 #anchor6{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -155px;
     background-color: blueviolet;
 }
 
@@ -124,7 +227,79 @@ div{
 .box4 .text{
     position: absolute;
     text-align: center;
-    width:100%;
-    bottom:15px;
+    width: 100%;
+    bottom: 15px;
+    background-color: blueviolet;
+}
+
+.box4 #anchor7{
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -15px;
+    background-color: blueviolet;
+}
+
+.box4 #anchor8{
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -155px;
+    background-color: blueviolet;
+}
+
+/* Setup text positioning of fifth image */
+.box5 .text{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 15px;
+    background-color: blueviolet;
+}
+
+.box5 #anchor9{
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -15px;
+    background-color: blueviolet;
+}
+
+.box5 #anchor10{
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -155px;
+    background-color: blueviolet;
+}
+
+/* Setup text positioning of fifth image */
+.box6 .text{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 15px;
+    background-color: blueviolet;
+}
+
+.box6 #anchor11{
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -15px;
+    background-color: blueviolet;
+}
+
+.box6 #anchor12{
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: -155px;
     background-color: blueviolet;
 }

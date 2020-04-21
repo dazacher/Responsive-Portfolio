@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Assets/Images/favicon.ico" type="image/x-icon/">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Assets/Images/favicon.ico" type="image/x-icon/">
+  <title>Contact</title>
 
-    <!-- Link to google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"> 
-  
+  <!-- Link to google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+
   <!-- Link to Bootstrap -->
-    <link rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
-<!-- Link to personal style sheet -->
-  <link rel="stylesheet" href="./style.css"/>
+  <!-- Link to personal style sheet -->
+  <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!-- Image of myself in the navbar. Also a link back to the about me page. -->
     <a class="navbar-brand" href="./index.html">Dee Ann Scanniello</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,6 +34,10 @@
 
           <!-- Link to About Me page -->
           <a class="nav-link" href="./index.html">About Me <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <!-- Link to Portfolio Page -->
+          <a class="nav-link" href="./Dee_Ann_Scanniello_Resume.html">Resume</a>
         </li>
         <li class="nav-item">
           <!-- Link to Portfolio page -->
@@ -47,45 +52,51 @@
   </nav>
 
   <!-- Container to hold the line and Contact header in -->
-    <div class="container">
+  <div class="container">
     <div class="row" id="straight-line">
+      <div class="col-xs-12">
+
+      </div>
+    </div>
+    <div class="row">
       <div class="col-xs-12">
         <h2>Contact</h2>
       </div>
     </div>
-  </container>
-  <!-- Put form in a container -->
-   <container>   
-    <!-- Start of the form -->
-        <form>
+    </container>
+    <!-- Put form in a container -->
+    <container>
+      <!-- Start of the form -->
+      <form>
         <!-- Label and data entry box for the name of the person tyring to contact me -->
         <div class="row">
           <div class="col=xs-9">
             <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
-          </div>   
-        <!-- Label and data entry box for the email address of the person trying to contact me -->
-           <div class="form-group">
+              <label for="formGroupExampleInput">Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+            </div>
+            <!-- Label and data entry box for the email address of the person trying to contact me -->
+            <div class="form-group">
               <label for="formGroupExampleInput2">Email</label>
               <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
             </div>
-          <div class="form-group">
-          <!-- Label and data entry box for the message from the person who is tying to contact me -->
-            <label for="formGroupExampleInput3">Message</label>
-            <input type="text" class="form-control" id="formGroupExampleInput3">
+            <div class="form-group">
+              <!-- Label and data entry box for the message from the person who is tying to contact me -->
+              <label for="formGroupExampleInput3">Message</label>
+              <input type="text" class="form-control" id="formGroupExampleInput3">
+            </div>
+            <!-- Submit button for the person to push to submit the data they wish to send to me -->
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
-        <!-- Submit button for the person to push to submit the data they wish to send to me -->
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="col-xs-3"></div>
         </div>
-        <div class="col-xs-3"></div>
-      </div>
-    </div>
-        </form>          
-      </container>
+  </div>
+  </form>
+  </container>
   </div>
 
-</div>
-  
+  </div>
+
 </body>
+
 </html>
