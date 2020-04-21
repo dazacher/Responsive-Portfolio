@@ -138,12 +138,12 @@ div{
     position: relative;
     top: 50px;
 }
-
+/* Setup position of fifth image */
 .box5{
     position: relative;
     top: 75px;
 }
-
+/* Setup position of sixth image */
 .box6{
     position: relative;
     top: 75px;
@@ -277,7 +277,7 @@ div{
     background-color: blueviolet;
 }
 
-/* Setup text positioning of fifth image */
+/* Setup text positioning of sixth image */
 .box6 .text{
     position: absolute;
     text-align: center;
