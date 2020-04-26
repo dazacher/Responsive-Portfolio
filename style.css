@@ -90,7 +90,7 @@ div{
     border-bottom: solid;
 }
 
-/* Details of the button the the contact page */
+/* Details of the button on the contact page */
 .btn{
     background-color: blueviolet;
     text-align: left;
@@ -106,7 +106,7 @@ div{
 .img-responsive{
       float: left;
       padding-right: 15px;;
-      width: 225px;
+      width: 200px;
       height: 250px;
   }
   
