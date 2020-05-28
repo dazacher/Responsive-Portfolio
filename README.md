@@ -13,4 +13,4 @@ Next I moved to the Contact.html page. Here I used a Boostrap form and placed it
 
 Finally I worked on the Portfolio.html page.  This proved to be quite a challenge.  The challenge was getting the pictures to line up on a cell phone.  They would line up on a computer screen when you minimized it, but not on the cell phone.
 
-Here is the link link to my bootstrap project: https://dazacher.github.io/Responsive-Portfolio/
+Here is the link link to my bootstrap project: https://dazacher.github.io/Portfolio/
