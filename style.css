@@ -158,6 +158,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
  .box1 #anchor1{
@@ -166,6 +167,7 @@ div{
     width: 100%;
     bottom: -15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box1 #anchor2{
@@ -174,6 +176,7 @@ div{
     width: 100%;
     bottom: -155px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 /* Setup text positioning of second image */
@@ -183,6 +186,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box2 #anchor3{
@@ -191,6 +195,7 @@ div{
     width: 100%;
     bottom: -15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box2 #anchor4{
@@ -199,6 +204,7 @@ div{
     width: 100%;
     bottom: -155px;
     background-color: blueviolet;
+    font-size: small;
 }
 /* Setup text positioning of third image */
 .box3 .text{
@@ -207,6 +213,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box3 #anchor5{
@@ -215,6 +222,7 @@ div{
     width: 100%;
     bottom: -15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box3 #anchor6{
@@ -223,6 +231,7 @@ div{
     width: 100%;
     bottom: -155px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 /* Setup text positioning of fourth image */
@@ -232,6 +241,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box4 #anchor7{
@@ -241,6 +251,7 @@ div{
     width: 100%;
     bottom: -15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box4 #anchor8{
@@ -250,6 +261,7 @@ div{
     width: 100%;
     bottom: -155px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 /* Setup text positioning of fifth image */
@@ -259,6 +271,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box5 #anchor9{
@@ -268,6 +281,7 @@ div{
     width: 100%;
     bottom: -15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box5 #anchor10{
@@ -277,6 +291,7 @@ div{
     width: 100%;
     bottom: -155px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 /* Setup text positioning of sixth image */
@@ -286,6 +301,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box6 #anchor11{
@@ -295,6 +311,7 @@ div{
     width: 100%;
     bottom: -15px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .box6 #anchor12{
@@ -304,6 +321,7 @@ div{
     width: 100%;
     bottom: -155px;
     background-color: blueviolet;
+    font-size: small;
 }
 
 .indexImages{
