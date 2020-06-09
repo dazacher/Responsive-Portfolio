@@ -1,7 +1,7 @@
 # Responsive-Portfolio
 Portfolio using Bootstrap Grid
 
-This project is being built focusing on using Bootstrap technology to make the web pages responsize so that when used on devices with different sized screens, the layout will still look pleasant to the user.
+This portfolio project is being built focusing on using Bootstrap technology to make the web pages responsive so that when used on devices with different sized screens, the layout will still look pleasant to the user.
 
 First I built matching Navbars on all my pages which consist of an index.html, portfolio.html, and contact.html and link to a pdf of my resume. The navbar has some customization, as it has my name in white with a blueviolet background.
 
