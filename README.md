@@ -1,7 +1,7 @@
 # Responsive-Portfolio
 Portfolio using Bootstrap Grid
 
-This project is being built focusing on using Bootstrap technology to make the web pages responsize so that when used on devices with different sized screens, the layout will still look pleasant to the user.
+This portfolio project is being built focusing on using Bootstrap technology to make the web pages responsive so that when used on devices with different sized screens, the layout will still look pleasant to the user.
 
 First I built matching Navbars on all my pages which consist of an index.html, portfolio.html, and contact.html and link to a pdf of my resume. The navbar has some customization, as it has my name in white with a blueviolet background.
 
@@ -13,4 +13,4 @@ Next I moved to the Contact.html page. Here I used a Boostrap form and placed it
 
 Finally I worked on the Portfolio.html page.  This proved to be quite a challenge.  The challenge was getting the pictures to line up on a cell phone.  They would line up on a computer screen when you minimized it, but not on the cell phone.
 
-Here is the link link to my bootstrap project: https://dazacher.github.io/Responsive-Portfolio/
+Here is the link link to my bootstrap project: https://dazacher.github.io/Portfolio/
